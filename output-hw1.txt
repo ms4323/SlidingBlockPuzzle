@@ -1,0 +1,1358 @@
+
+Part 1: Random Walks
+
+5,4,
+1,-1,-1,1,1,
+1,0,3,4,1,
+1,0,2,2,1,
+1,1,1,1,1,
+
+(3,left)
+
+5,4,
+1,-1,-1,1,1,
+1,3,0,4,1,
+1,0,2,2,1,
+1,1,1,1,1,
+
+(3,down)
+
+5,4,
+1,-1,-1,1,1,
+1,0,0,3,1,
+1,4,2,2,1,
+1,1,1,1,1,
+
+(4,up)
+
+5,4,
+1,-1,-1,1,1,
+1,3,0,4,1,
+1,0,2,2,1,
+1,1,1,1,1,
+
+Part 2: Search Algorithms
+
+5,5,
+1,1,1,1,1,
+1,3,2,2,1,
+1,0,4,5,1,
+-1,0,6,7,1,
+1,1,1,1,1,
+
+Breath First Search:
+
+solved!
+(3,down)
+(2,left)
+(3,down)
+(4,up)
+(4,right)
+(2,down)
+(3,left)
+(4,up)
+(2,right)
+(5,up)
+(5,up)
+(2,left)
+(7,up)
+(7,right)
+(2,down)
+(2,left)
+
+5,5,
+1,1,1,1,1,
+1,3,4,5,1,
+1,0,0,6,1,
+2,2,0,7,1,
+1,1,1,1,1,
+
+#nodes length time
+1883 16 1.07631
+
+Depth First Search:
+
+solved!
+(6,left)
+(6,left)
+(7,left)
+(7,left)
+(7,left)
+(7,left)
+(6,up)
+(6,up)
+(6,up)
+(7,left)
+(7,left)
+(6,down)
+(7,left)
+(7,left)
+(7,left)
+(7,right)
+(6,up)
+(4,left)
+(4,left)
+(4,up)
+(5,up)
+(5,up)
+(6,left)
+(7,left)
+(7,right)
+(6,right)
+(5,down)
+(3,down)
+(5,up)
+(6,left)
+(7,left)
+(7,right)
+(7,right)
+(6,up)
+(6,up)
+(6,right)
+(6,right)
+(7,up)
+(7,up)
+(7,up)
+(7,right)
+(7,right)
+(6,down)
+(6,down)
+(6,down)
+(4,down)
+(7,up)
+(7,up)
+(7,up)
+(7,up)
+(4,left)
+(4,left)
+(5,down)
+(5,left)
+(6,left)
+(6,left)
+(6,right)
+(6,right)
+(6,left)
+(5,up)
+
+5,5,
+1,1,1,1,1,
+1,3,4,5,1,
+1,0,6,7,1,
+2,2,0,0,1,
+1,1,1,1,1,
+
+#nodes length time
+56 23 0.00193
+
+Iterative Deepening Search:
+
+for L = 0
+
+
+#nodes length time
+1 1 2e-05
+
+for L = 1
+
+
+#nodes length time
+2 2 3.3e-05
+
+for L = 2
+
+
+#nodes length time
+4 3 6.9e-05
+
+for L = 3
+
+
+#nodes length time
+6 4 0.000107
+
+for L = 4
+
+
+#nodes length time
+8 5 0.000148
+
+for L = 5
+
+
+#nodes length time
+14 6 0.000295
+
+for L = 6
+
+
+#nodes length time
+15 7 0.00032
+
+for L = 7
+
+
+#nodes length time
+16 8 0.000361
+
+for L = 8
+
+
+#nodes length time
+17 9 0.000405
+
+for L = 9
+
+
+#nodes length time
+20 10 0.000514
+
+for L = 10
+
+
+#nodes length time
+22 11 0.000575
+
+for L = 11
+
+
+#nodes length time
+26 12 0.000671
+
+for L = 12
+
+
+#nodes length time
+28 13 0.000734
+
+for L = 13
+
+
+#nodes length time
+30 14 0.000816
+
+for L = 14
+
+
+#nodes length time
+33 15 0.000921
+
+for L = 15
+
+
+#nodes length time
+35 16 0.000988
+
+for L = 16
+
+
+#nodes length time
+37 17 0.001037
+
+for L = 17
+
+
+#nodes length time
+39 18 0.001115
+
+for L = 18
+
+
+#nodes length time
+40 19 0.001181
+
+for L = 19
+
+
+#nodes length time
+41 20 0.001235
+
+for L = 20
+
+
+#nodes length time
+44 21 0.001337
+
+for L = 21
+
+
+#nodes length time
+49 22 0.001608
+
+for L = 22
+
+
+#nodes length time
+63 23 0.002227
+
+for L = 23
+
+
+#nodes length time
+64 24 0.002258
+
+for L = 24
+
+
+#nodes length time
+66 25 0.002395
+
+for L = 25
+
+
+#nodes length time
+68 26 0.002496
+
+for L = 26
+
+
+#nodes length time
+69 27 0.002515
+
+for L = 27
+
+
+#nodes length time
+71 28 0.002647
+
+for L = 28
+
+
+#nodes length time
+74 29 0.002822
+
+for L = 29
+
+
+#nodes length time
+76 30 0.002971
+
+for L = 30
+
+
+#nodes length time
+79 31 0.003127
+
+for L = 31
+
+
+#nodes length time
+80 32 0.003177
+
+for L = 32
+
+
+#nodes length time
+82 33 0.003317
+
+for L = 33
+
+
+#nodes length time
+86 34 0.003493
+
+for L = 34
+
+
+#nodes length time
+88 35 0.00366
+
+for L = 35
+
+
+#nodes length time
+90 36 0.003813
+
+for L = 36
+
+
+#nodes length time
+92 37 0.003972
+
+for L = 37
+
+
+#nodes length time
+94 38 0.004137
+
+for L = 38
+
+
+#nodes length time
+101 39 0.004766
+
+for L = 39
+
+
+#nodes length time
+102 40 0.004866
+
+for L = 40
+
+
+#nodes length time
+103 41 0.00498
+
+for L = 41
+
+
+#nodes length time
+104 42 0.005165
+
+for L = 42
+
+
+#nodes length time
+106 43 0.005372
+
+for L = 43
+
+
+#nodes length time
+109 44 0.005789
+
+for L = 44
+
+
+#nodes length time
+110 45 0.005877
+
+for L = 45
+
+
+#nodes length time
+112 46 0.006154
+
+for L = 46
+
+
+#nodes length time
+114 47 0.006404
+
+for L = 47
+
+
+#nodes length time
+116 48 0.006773
+
+for L = 48
+
+
+#nodes length time
+118 49 0.007014
+
+for L = 49
+
+
+#nodes length time
+120 50 0.007301
+
+for L = 50
+
+
+#nodes length time
+122 51 0.007634
+
+for L = 51
+
+
+#nodes length time
+124 52 0.007957
+
+for L = 52
+
+
+#nodes length time
+128 53 0.008558
+
+for L = 53
+
+
+#nodes length time
+129 54 0.00866
+
+for L = 54
+
+
+#nodes length time
+132 55 0.009133
+
+for L = 55
+
+
+#nodes length time
+133 56 0.009364
+
+for L = 56
+
+
+#nodes length time
+137 57 0.009985
+
+for L = 57
+
+
+#nodes length time
+138 58 0.010161
+
+for L = 58
+
+
+#nodes length time
+141 59 0.010688
+
+for L = 59
+
+
+#nodes length time
+144 60 0.011102
+
+for L = 60
+
+
+#nodes length time
+145 61 0.011223
+
+for L = 61
+
+
+#nodes length time
+148 62 0.011624
+
+for L = 62
+
+
+#nodes length time
+149 63 0.011845
+
+for L = 63
+
+
+#nodes length time
+151 64 0.012302
+
+for L = 64
+
+
+#nodes length time
+154 65 0.012736
+
+for L = 65
+
+
+#nodes length time
+158 66 0.013353
+
+for L = 66
+
+
+#nodes length time
+160 67 0.013685
+
+for L = 67
+
+
+#nodes length time
+162 68 0.014037
+
+for L = 68
+
+
+#nodes length time
+164 69 0.014315
+
+for L = 69
+
+
+#nodes length time
+167 70 0.014991
+
+for L = 70
+
+
+#nodes length time
+170 71 0.015545
+
+for L = 71
+
+
+#nodes length time
+171 72 0.015786
+
+for L = 72
+
+
+#nodes length time
+172 73 0.01601
+
+for L = 73
+
+
+#nodes length time
+174 74 0.016361
+
+for L = 74
+
+
+#nodes length time
+177 75 0.017081
+
+for L = 75
+
+
+#nodes length time
+178 76 0.017139
+
+for L = 76
+
+
+#nodes length time
+181 77 0.017803
+
+for L = 77
+
+
+#nodes length time
+182 78 0.01822
+
+for L = 78
+
+
+#nodes length time
+184 79 0.018567
+
+for L = 79
+
+
+#nodes length time
+186 80 0.018845
+
+for L = 80
+
+
+#nodes length time
+187 81 0.019148
+
+for L = 81
+
+
+#nodes length time
+189 82 0.019435
+
+for L = 82
+
+
+#nodes length time
+192 83 0.020093
+
+for L = 83
+
+
+#nodes length time
+194 84 0.020444
+
+for L = 84
+
+
+#nodes length time
+196 85 0.020999
+
+for L = 85
+
+
+#nodes length time
+198 86 0.021465
+
+for L = 86
+
+
+#nodes length time
+200 87 0.021856
+
+for L = 87
+
+
+#nodes length time
+203 88 0.022842
+
+for L = 88
+
+
+#nodes length time
+205 89 0.023247
+
+for L = 89
+
+
+#nodes length time
+208 90 0.024015
+
+for L = 90
+
+
+#nodes length time
+211 91 0.024772
+
+for L = 91
+
+
+#nodes length time
+212 92 0.025041
+
+for L = 92
+
+
+#nodes length time
+215 93 0.025528
+
+for L = 93
+
+
+#nodes length time
+218 94 0.026119
+
+for L = 94
+
+
+#nodes length time
+219 95 0.026349
+
+for L = 95
+
+
+#nodes length time
+221 96 0.026976
+
+for L = 96
+
+
+#nodes length time
+223 97 0.027732
+
+for L = 97
+
+
+#nodes length time
+226 98 0.028243
+
+for L = 98
+
+
+#nodes length time
+227 99 0.028534
+
+for L = 99
+
+
+#nodes length time
+229 100 0.029193
+
+for L = 100
+
+
+#nodes length time
+231 101 0.029562
+
+for L = 101
+
+
+#nodes length time
+233 102 0.029929
+
+for L = 102
+
+
+#nodes length time
+237 103 0.031036
+
+for L = 103
+
+
+#nodes length time
+238 104 0.031513
+
+for L = 104
+
+
+#nodes length time
+240 105 0.032186
+
+for L = 105
+
+
+#nodes length time
+241 106 0.032495
+
+for L = 106
+
+
+#nodes length time
+244 107 0.033481
+
+for L = 107
+
+
+#nodes length time
+245 108 0.033801
+
+for L = 108
+
+
+#nodes length time
+247 109 0.034406
+
+for L = 109
+
+
+#nodes length time
+249 110 0.035144
+
+for L = 110
+
+
+#nodes length time
+251 111 0.035655
+
+for L = 111
+
+
+#nodes length time
+253 112 0.036215
+
+for L = 112
+
+
+#nodes length time
+254 113 0.036452
+
+for L = 113
+
+
+#nodes length time
+256 114 0.036867
+
+for L = 114
+
+
+#nodes length time
+257 115 0.037139
+
+for L = 115
+
+
+#nodes length time
+260 116 0.038394
+
+for L = 116
+
+
+#nodes length time
+262 117 0.038566
+
+for L = 117
+
+
+#nodes length time
+264 118 0.03932
+
+for L = 118
+
+
+#nodes length time
+266 119 0.039761
+
+for L = 119
+
+
+#nodes length time
+269 120 0.04069
+
+for L = 120
+
+
+#nodes length time
+270 121 0.040825
+
+for L = 121
+
+
+#nodes length time
+275 122 0.042504
+
+for L = 122
+
+
+#nodes length time
+278 123 0.043586
+
+for L = 123
+
+
+#nodes length time
+280 124 0.044118
+
+for L = 124
+
+
+#nodes length time
+281 125 0.044435
+
+for L = 125
+
+
+#nodes length time
+287 126 0.04635
+
+for L = 126
+
+
+#nodes length time
+290 127 0.047435
+
+for L = 127
+
+
+#nodes length time
+291 128 0.047791
+
+for L = 128
+
+
+#nodes length time
+293 129 0.048489
+
+for L = 129
+
+
+#nodes length time
+295 130 0.049197
+
+for L = 130
+
+
+#nodes length time
+296 131 0.04966
+
+for L = 131
+
+
+#nodes length time
+299 132 0.050275
+
+for L = 132
+
+
+#nodes length time
+300 133 0.050702
+
+for L = 133
+
+
+#nodes length time
+303 134 0.051564
+
+for L = 134
+
+
+#nodes length time
+308 135 0.053492
+
+for L = 135
+
+
+#nodes length time
+311 136 0.054692
+
+for L = 136
+
+
+#nodes length time
+312 137 0.055264
+
+for L = 137
+
+
+#nodes length time
+314 138 0.056104
+
+for L = 138
+
+
+#nodes length time
+315 139 0.056646
+
+for L = 139
+
+
+#nodes length time
+319 140 0.057965
+
+for L = 140
+
+
+#nodes length time
+320 141 0.058549
+
+for L = 141
+
+
+#nodes length time
+322 142 0.059383
+
+for L = 142
+
+
+#nodes length time
+324 143 0.060037
+
+for L = 143
+
+
+#nodes length time
+326 144 0.060864
+
+for L = 144
+
+
+#nodes length time
+328 145 0.060988
+
+for L = 145
+
+
+#nodes length time
+329 146 0.061524
+
+for L = 146
+
+
+#nodes length time
+333 147 0.063002
+
+for L = 147
+
+
+#nodes length time
+334 148 0.063233
+
+for L = 148
+
+
+#nodes length time
+336 149 0.063873
+
+for L = 149
+
+
+#nodes length time
+337 150 0.064239
+
+for L = 150
+
+
+#nodes length time
+338 151 0.064649
+
+for L = 151
+
+
+#nodes length time
+340 152 0.065137
+
+for L = 152
+
+
+#nodes length time
+343 153 0.066624
+
+for L = 153
+
+
+#nodes length time
+344 154 0.067166
+
+for L = 154
+
+
+#nodes length time
+347 155 0.068407
+
+for L = 155
+
+
+#nodes length time
+348 156 0.068739
+
+for L = 156
+
+
+#nodes length time
+350 157 0.069551
+
+for L = 157
+
+
+#nodes length time
+353 158 0.070636
+
+for L = 158
+
+
+#nodes length time
+354 159 0.070921
+
+for L = 159
+
+
+#nodes length time
+357 160 0.07222
+
+for L = 160
+
+
+#nodes length time
+359 161 0.072657
+
+for L = 161
+
+
+#nodes length time
+361 162 0.073359
+
+for L = 162
+
+
+#nodes length time
+364 163 0.074513
+
+for L = 163
+
+
+#nodes length time
+365 164 0.074715
+
+for L = 164
+
+
+#nodes length time
+367 165 0.0756
+
+for L = 165
+
+
+#nodes length time
+369 166 0.076563
+
+for L = 166
+
+
+#nodes length time
+371 167 0.077467
+
+for L = 167
+
+
+#nodes length time
+373 168 0.078003
+
+for L = 168
+
+
+#nodes length time
+378 169 0.080032
+
+for L = 169
+
+
+#nodes length time
+380 170 0.080591
+
+for L = 170
+
+
+#nodes length time
+381 171 0.081324
+
+for L = 171
+
+
+#nodes length time
+383 172 0.082562
+
+for L = 172
+
+
+#nodes length time
+385 173 0.091511
+
+for L = 173
+
+
+#nodes length time
+387 174 0.084073
+
+for L = 174
+
+
+#nodes length time
+390 175 0.085732
+
+for L = 175
+
+
+#nodes length time
+391 176 0.086555
+
+for L = 176
+
+
+#nodes length time
+395 177 0.087967
+
+for L = 177
+
+
+#nodes length time
+396 178 0.088342
+
+for L = 178
+
+
+#nodes length time
+400 179 0.089803
+
+for L = 179
+
+
+#nodes length time
+404 180 0.091468
+
+for L = 180
+
+
+#nodes length time
+407 181 0.092712
+
+for L = 181
+
+
+#nodes length time
+410 182 0.094698
+
+for L = 182
+
+
+#nodes length time
+412 183 0.095391
+
+for L = 183
+
+
+#nodes length time
+414 184 0.096807
+
+for L = 184
+
+
+#nodes length time
+416 185 0.097346
+
+for L = 185
+
+
+#nodes length time
+418 186 0.09831
+
+for L = 186
+
+
+#nodes length time
+423 187 0.100441
+
+for L = 187
+
+
+#nodes length time
+425 188 0.101344
+
+for L = 188
+
+
+#nodes length time
+426 189 0.101669
+
+for L = 189
+
+
+#nodes length time
+428 190 0.1026
+
+for L = 190
+
+
+#nodes length time
+430 191 0.10328
+
+for L = 191
+
+
+#nodes length time
+431 192 0.103481
+
+for L = 192
+
+
+#nodes length time
+434 193 0.104859
+
+for L = 193
+
+
+#nodes length time
+435 194 0.106535
+
+for L = 194
+
+
+#nodes length time
+436 195 0.106064
+
+for L = 195
+
+
+#nodes length time
+438 196 0.10699
+
+for L = 196
+
+
+#nodes length time
+441 197 0.108447
+
+for L = 197
+
+
+#nodes length time
+443 198 0.109135
+
+for L = 198
+
+
+#nodes length time
+445 199 0.110148
+
+for L = 199
+
+
+#nodes length time
+448 200 0.112044
+
+5,5,
+1,1,1,1,1,
+1,3,4,5,1,
+1,6,0,0,1,
+2,2,0,7,1,
+1,1,1,1,1,
+
+Totally for all the depths:
+#nodes time
+45754 7.69126
