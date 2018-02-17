@@ -1,1 +1,1 @@
-# SlidingBlockPuzzle
+# sliding block puzzle
